@@ -1,0 +1,1 @@
+answer = [(a,b,c) | a <- [1..1000], b <- [1..1000], c <- [1..1000], a+b+c == 1000 && fromIntegral a**2+fromIntegral b**2==fromIntegral c**2]
